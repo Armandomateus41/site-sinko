@@ -1,15 +1,12 @@
-@import "tailwindcss";
+/* 1. Diretivas do Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* 2. Suas variáveis e customizações (opcional) */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
